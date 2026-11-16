@@ -1,0 +1,20 @@
+# Secrets - NEVER commit these
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node / React
+frontend/node_modules/
+node_modules/
+frontend/dist/
+
+# Database files
+*.db
+
+# OS / editor junk
+.DS_Store
+.vscode/
